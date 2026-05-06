@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6a39b3ab-e6c9-4353-afd4-ddf6e69b6e69",
+    "Name": "UsrSitara",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrSitara.csproj",
+    "DependsOn": []
+  }
+}
