@@ -3,13 +3,15 @@
     "UId": "6a39b3ab-e6c9-4353-afd4-ddf6e69b6e69",
     "Name": "UsrSitara",
     "Type": 1,
+    "ModifiedOnUtc": "\/Date(1778059215000)\/",
     "Maintainer": "Customer",
     "ProjectPath": "Files/UsrSitara.csproj",
     "DependsOn": [
       {
-        "UId": "29996b0e-2b19-27a8-dab4-67fbc00db573",
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
         "PackageVersion": "7.8.0",
-        "Name": "CrtProcessDesigner"
+        "Name": "CrtCore",
+        "Type": 1
       }
     ]
   }
