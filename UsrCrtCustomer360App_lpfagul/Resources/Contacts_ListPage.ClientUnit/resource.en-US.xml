@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.PDS_UsrVwContactAgeDaysUsrParentContact_UsrAgeDays_a8sw2w4.Value" Value="Age In Days" />
+			<Item Name="LocalizableStrings.PDS_UsrVwContactAgeDaysUsrParentContact_UsrAgeDays_utk3pv2.Value" Value="Age In Days" />
+		</Items>
+	</Group>
+</Resources>

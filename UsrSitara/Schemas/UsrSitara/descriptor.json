@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "185e233e-adc2-49dc-91d2-ea54fd828ed4",
+    "Name": "UsrSitara",
+    "ModifiedOnUtc": "\/Date(1779026277000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Sitara",
+    "DependsOn": []
+  }
+}

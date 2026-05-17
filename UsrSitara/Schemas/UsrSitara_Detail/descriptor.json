@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "62e8d42c-3711-4984-a62d-8fefd72d39e8",
+    "Name": "UsrSitara_Detail",
+    "ModifiedOnUtc": "\/Date(1779026314000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Sitara detail",
+    "DependsOn": []
+  }
+}

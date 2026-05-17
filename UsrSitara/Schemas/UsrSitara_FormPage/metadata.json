@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "5640bc15-e75a-4b78-a110-8077591e69fc"
+= MetaData.Schema.A2 "UsrSitara_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["f990b35f-c04b-4fae-b121-0fd3a23a7479","3530665a-3551-4d1d-ac3f-a0989cbfc8f0","4f571edc-05cc-404f-97f5-eafc7d2b8ab4","53dd7400-8d04-4e26-babe-8b2d2edabb1a"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false

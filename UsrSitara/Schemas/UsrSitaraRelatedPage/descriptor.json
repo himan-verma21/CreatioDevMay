@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "628152b4-439a-440d-9521-6dbca62ccb7a",
+    "Name": "UsrSitaraRelatedPage",
+    "ModifiedOnUtc": "\/Date(1779026314000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Sitara (Page settings)",
+    "DependsOn": []
+  }
+}

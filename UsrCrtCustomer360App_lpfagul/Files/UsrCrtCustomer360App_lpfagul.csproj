@@ -636,18 +636,19 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="UsrSitara">
+			<HintPath>$(RelativePkgFolderPath)/UsrSitara/$(StandalonePackageAssemblyPath)/UsrSitara.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="XSSProtection">
 			<HintPath>$(RelativePkgFolderPath)/XSSProtection/$(StandalonePackageAssemblyPath)/XSSProtection.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
-	<ItemGroup Label="Standalone package external assembly references"></ItemGroup>
-	<ItemGroup Label="Entity Files">
-		<Compile Remove="$(RelativePkgFolderPath)/UsrSitara/Schemas/UsrSitara/UsrSitara.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSitara/Schemas/UsrSitara/UsrSitara.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/UsrSitara/Schemas/UsrStarLight/UsrStarLight.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSitara/Schemas/UsrStarLight/UsrStarLight.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/UsrSitara/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSitara/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
-	</ItemGroup>
+	<ItemGroup Label="Standalone package external assembly references" />
+	<ItemGroup Label="Entity Files" />
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
 		<Message Importance="High" Text="*********** Project [$(MSBuildProjectFile)] TargetFramework [$(TargetFramework)] CoreTargetFramework [$(CoreTargetFramework)]" />

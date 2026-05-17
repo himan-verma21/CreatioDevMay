@@ -1,0 +1,23 @@
+﻿{
+  "Descriptor": {
+    "UId": "337ec2f6-273a-4204-8b36-e73f5b10cb56",
+    "Name": "UsrCrtCustomer360App_lpfagul",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1779024984000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrCrtCustomer360App_lpfagul.csproj",
+    "DependsOn": [
+      {
+        "UId": "2ecba2bd-b810-47a5-a1b1-08c888529d6c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomer360App",
+        "Type": 1
+      },
+      {
+        "UId": "6a39b3ab-e6c9-4353-afd4-ddf6e69b6e69",
+        "Name": "UsrSitara",
+        "Type": 1
+      }
+    ]
+  }
+}
