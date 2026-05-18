@@ -17,7 +17,6 @@ define("UsrSitara_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"operation": "merge",
 				"name": "FolderTree",
 				"values": {
-					"sourceSchemaName": "FolderTree",
 					"rootSchemaName": "UsrSitara"
 				}
 			},
@@ -44,6 +43,12 @@ define("UsrSitara_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"caption": "#ResourceString(PDS_CreatedBy)#",
 							"dataValueType": 10
 						},
+						{
+							"id": "f6252f24-9bea-138a-a889-a53e61be0b9c",
+							"code": "PDS_UsrStatus_Description",
+							"caption": "#ResourceString(PDS_UsrStatus_Description)#",
+							"dataValueType": 28
+						}
 					]
 				}
 			},
@@ -88,6 +93,11 @@ define("UsrSitara_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"modelConfig": {
 							"path": "PDS.CreatedBy"
 						}
+					},
+					"PDS_UsrStatus_Description": {
+						"modelConfig": {
+							"path": "PDS.UsrStatus_Description"
+						}
 					}
 				}
 			}
@@ -101,7 +111,22 @@ define("UsrSitara_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"config"
 				],
 				"values": {
-					"entitySchemaName": "UsrSitara"
+					"entitySchemaName": "UsrSitara",
+					"attributes": {
+						"UsrName": {
+							"path": "UsrName"
+						},
+						"CreatedOn": {
+							"path": "CreatedOn"
+						},
+						"CreatedBy": {
+							"path": "CreatedBy"
+						},
+						"UsrStatus_Description": {
+							"type": "ForwardReference",
+							"path": "UsrStatus.Description"
+						}
+					}
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,

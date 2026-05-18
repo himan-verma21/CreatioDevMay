@@ -3,7 +3,13 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Sitara" />
+			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
+			<Item Name="Columns.UsrDriveType.Caption" Value="Drive Type" />
+			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrPassengesCount.Caption" Value="Passengers Count" />
+			<Item Name="Columns.UsrPrice.Caption" Value="Price Per Day" />
+			<Item Name="Columns.UsrStatus.Caption" Value="Status" />
 		</Items>
 	</Group>
 </Resources>

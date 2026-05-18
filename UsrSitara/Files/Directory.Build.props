@@ -1,7 +1,10 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/UsrSitara/Schemas/UsrSitara/UsrSitara.cs" Condition="Exists('$(PkgPath)/UsrSitara/Schemas/UsrSitara/UsrSitara.cs')" />
+		<Compile Include="$(PkgPath)/UsrSitara/Schemas/UsrSitaraDriveType/UsrSitaraDriveType.cs" Condition="Exists('$(PkgPath)/UsrSitara/Schemas/UsrSitaraDriveType/UsrSitaraDriveType.cs')" />
+		<Compile Include="$(PkgPath)/UsrSitara/Schemas/UsrSitaraStatus/UsrSitaraStatus.cs" Condition="Exists('$(PkgPath)/UsrSitara/Schemas/UsrSitaraStatus/UsrSitaraStatus.cs')" />
 		<Compile Include="$(PkgPath)/UsrSitara/Schemas/UsrStarLight/UsrStarLight.cs" Condition="Exists('$(PkgPath)/UsrSitara/Schemas/UsrStarLight/UsrStarLight.cs')" />
+		<Compile Include="$(PkgPath)/UsrSitara/Schemas/UsrStatus/UsrStatus.cs" Condition="Exists('$(PkgPath)/UsrSitara/Schemas/UsrStatus/UsrStatus.cs')" />
 		<Compile Include="$(PkgPath)/UsrSitara/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(PkgPath)/UsrSitara/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
 	</ItemGroup>
 </Project>

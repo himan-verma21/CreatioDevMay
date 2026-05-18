@@ -3,6 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Sitara form page" />
+			<Item Name="LocalizableStrings.Button_2f85bf8_caption.Value" Value="Test button" />
+			<Item Name="LocalizableStrings.addRecord_2uvsam9_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qyhw2vy_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_r58fjjp_caption.Value" Value="Add new" />
 		</Items>
 	</Group>
 </Resources>

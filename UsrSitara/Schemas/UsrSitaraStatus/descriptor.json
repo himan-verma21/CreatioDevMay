@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "89e62616-3563-484a-b1da-666c77c6798b",
+    "Name": "UsrSitaraStatus",
+    "ModifiedOnUtc": "\/Date(1779083248000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Sitara Status"
+  }
+}
